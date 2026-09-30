@@ -7,46 +7,41 @@
 
 **Theme:**
 
-TODO: Name and briefly describe your game's theme.
+The Lost Artist's Studio
+A text-based adventure game where players explore a magical art studio, collect art supplies, and avoid a dangerous art thief.
 
 **Storyline:**
 
-TODO: In one short paragraph, explain the setting, the player's goal, the items
-the player must gather, and the threat created by the villain.
+The Lost Artist's Studio is a text-based adventure game where the player explores a magical art studio taken over by the Shadow Collector, a jealous art thief. The player must travel through different rooms collecting art supplies needed to complete a masterpiece. The player wins by gathering all six items before entering the room occupied by the Shadow Collector. If the player encounters the villain before collecting all items, the player loses.
 
 ## Rooms
 
-Project One requires a minimum of eight rooms.
+1. Lobby (Start Room)
+2. Drawing Room
+3. Paint Studio
+4. Sculpture Room
+5. Photography Lab
+6. Digital Design Room
+7. Gallery Hall
+8. Storage Closet
+9. Master Studio (Villain Room)
 
-1. TODO: Start room
-2. TODO: Room
-3. TODO: Room
-4. TODO: Room
-5. TODO: Room
-6. TODO: Room
-7. TODO: Room
-8. TODO: Villain room
-
-Add more rooms if your design needs them.
 
 ## Items
 
-With the minimum eight-room design, Project One requires at least six items.
-Every room except the start room and villain room must contain one item.
-
-1. TODO: Item
-2. TODO: Item
-3. TODO: Item
-4. TODO: Item
-5. TODO: Item
-6. TODO: Item
-
-If you add rooms beyond the minimum, add an item for every additional room
-except the start room and villain room.
+1. Sketchbook
+2. Paint Set
+3. Chisel
+4. Camera
+5. Drawing Tablet
+6. Inspiration Book
+7. Paintbrush
 
 ## Villain
 
-TODO: Identify and briefly describe the villain.
+Shadow Collector
+
+The Shadow Collector is a jealous art thief who has taken over the magical studio and hidden important art supplies throughout the building. The player must collect all the supplies before confronting the Shadow Collector.
 
 ## Storyboard and Map Check
 
