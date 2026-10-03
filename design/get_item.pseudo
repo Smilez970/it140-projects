@@ -9,22 +9,34 @@
 
 START get_item
 
-    # TODO 1: Identify the information the get-item process needs.
-    # Consider the current room, item in that room, and player's inventory.
+    # Project One Get-Item Pseudocode
 
-    # TODO 2: Prompt for and receive the player's get-item command.
+START get_item
 
-    # TODO 3: Validate whether the requested item is available in the current
-    # room. Show the decision clearly.
+    OUTPUT current room item
 
-    # TODO 4: Describe what happens when the item request is valid.
-    # Include the inventory update and player output.
+    PROMPT player to enter an item name
+    INPUT item command
 
-    # TODO 5: Describe what happens when the item request is invalid.
-    # Include the output the player should receive.
+    IF item command matches the item in the current room
 
-    # TODO 6: Show how the process returns to or continues the larger gameplay
-    # loop after the command is handled.
+        ADD item to player inventory
+
+        REMOVE item from current room
+
+        OUTPUT "Item collected."
+
+        OUTPUT updated inventory
+
+    ELSE
+
+        OUTPUT "That item is not in this room."
+
+    END IF
+
+    RETURN to main game loop
+
+END get_item
 
 END get_item
 
